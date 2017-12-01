@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Examples - Schr&ouml;dinger's Classroom</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style>
+        /* TEMPLATE STYLES */
+        .flex-center {
+            color: #fff;
+        }
+        .navbar .btn-group .dropdown-menu a:hover {
+            color: #000 !important;
+        }
+
+        .navbar .btn-group .dropdown-menu a:active {
+            color: #fff !important;
+        }
+
+        .oval {
+            padding: 2em 2em 2em 2em;
+            /* height: 125%;
+            width: 75%; */
+            height: 10em;
+            width: 80%;
+            background-color: rgba(14, 177, 123, 0.7);
+            border-radius: 50%;
+        }
+
+        .ovaltext {
+            margin-top: 10%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        
+        a {
+            color:rgb(153, 214, 255);
+        }
+        .textcenter{
+            text-align: center;
+        }
+        .ovalcenter{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:rgba(21,21,21,0.05)">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item btn-group">
+                        <a class="nav-link nav-item dropdown-toggle" id="navbarDropdownMenuLinkLessons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lessons</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkLessons">
+                            <a class="dropdown-item" href="lessons.html">All Lessons</a>
+                            <a class="dropdown-item" href="lesson1.html">Introduction to Quantum Mechanics</a>
+                            <a class="dropdown-item" href="lesson2.html">1-D Schr&ouml;dinger Equation</a>
+                            <a class="dropdown-item" href="lesson3.html">Particle in a box problem</a>
+                            <a class="dropdown-item" href="lesson4.html">Quantum Tunnelling</a>
+                            <a class="dropdown-item" href="lesson5.html">Blackbody Radiation</a>
+                            <a class="dropdown-item" href="lesson6.html">Young's Double-Slit Experiment</a>
+                        </div>
+                    </li>
+                    <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkExamples" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Examples</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkExamples">
+                            <a class="dropdown-item active" href="examples.html">All Examples <span class="sr-only">(current)</span></a>
+                            <a class="dropdown-item" href="example2.html">1-D Schr&ouml;dinger Equation</a>
+                            <a class="dropdown-item" href="example3.html">Particle in a box problem</a>
+                            <a class="dropdown-item" href="example4.html">Quantum Tunnelling</a>
+                            <a class="dropdown-item" href="example5.html">Blackbody Radiation</a>
+                            <a class="dropdown-item" href="example6.html">Young's Double-Slit Experiment</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!-- Intro Section -->
+    <div class="pt-5 pr-5 pb-5 pl-5" style="overflow:hidden; color:rgb(73, 155, 223); background-image: linear-gradient(#161616,#102c60)">
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn">Examples</h2>
+        </div>
+    </div>
+
+    <!-- Main container -->
+    <div style="overflow:hidden; color:rgb(73, 155, 223);background-image: linear-gradient(#102c60,#161616)">
+        <div>
+            <div class="row mt-5 mr-5 ml-5" style="margin-bottom:5em">
+                <!--First column-->
+                <div class="col-md-4">
+                    <div class="oval ovalcenter">
+                        <p class="ovaltext textcenter">Introduction to<br>Quantum Mechanics</p>
+                    </div>
+                </div>
+                <!--/First column-->
+                <!--Second column-->
+                <div class="col-md-4">
+                    <div class="oval ovalcenter">
+                        <p class="ovaltext textcenter"><a href="example2.html">1-D Schr&ouml;dinger Equation</a></p>
+                    </div>
+                </div>
+                <!--/Second column-->
+                <!--Third column-->
+                <div class="col-md-4">
+                    <div class="oval ovalcenter">
+                        <p class="ovaltext textcenter"><a href="example3.html">Particle in a box<br>problem</a></p>
+                    </div>
+                </div>
+                <!--/Third column-->
+            </div>
+            <div class="row mt-5 mr-5 ml-5" style="margin-bottom:5em">
+                <!--First column-->
+                <div class="col-md-4">
+                    <div class="oval ovalcenter">
+                        <p class="ovaltext textcenter"><a href="example4.html">Quantum<br>Tunnelling</a></p>
+                    </div>
+                </div>
+                <!--/First column-->
+                <!--Second column-->
+                <div class="col-md-4">
+                    <div class="oval ovalcenter">
+                        <p class="ovaltext textcenter"><a href="example5.html">Blackbody<br>Radiation</a></p>
+                    </div>
+                </div>
+                <!--/Second column-->
+                <!--Third column-->
+                <div class="col-md-4">
+                    <div class="oval ovalcenter">
+                        <p class="ovaltext textcenter"><a href="example6.html">Young's Double-Slit Experiment</a></p>
+                    </div>
+                </div>
+                <!--/Third column-->
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="pt-5 full-bg-img center-on-small-only" style="color:rgb(73, 155, 223);background-color:#161616">
+        <div class="container-fluid">
+            <div class="text-center">
+                <h3 style="margin: 0 1em 0 1em">"It is not the possession of truth,<br>
+                    but the success which attends the seeking after it,<br>
+                    that enriches the seeker and brings happiness to him."</h3>
+                <h5>-Max Planck</h5>
+            </div>
+        </div>
+
+        <hr>
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid" style="color:#fff">
+                © 2017 Copyright: <a style="color:rgb(51, 139, 255)">CP202 Group64</a>
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap dropdown -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!--Google Maps-->
+    <script src="https://maps.google.com/maps/api/js"></script>
+
+    <script>
+        function init_map() {
+
+            var var_location = new google.maps.LatLng(43.4723532,-80.5263399);
+
+            var var_mapoptions = {
+                center: var_location,
+
+                zoom: 14
+            };
+
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title: "Waterloo"
+            });
+
+            var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+
+            var_marker.setMap(var_map);
+
+        }
+
+        google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+
+    <!-- Animations init-->
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>
